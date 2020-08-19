@@ -1,0 +1,537 @@
+Property	Value	.05 (14.067)	.01 (18.475)	.001 (24.322)
+alpha-CH chemical shifts (ANDN920101)	393.416	*	*	*
+Hydrophobicity index (ARGP820101)	464.86	*	*	*
+Signal sequence helical potential (ARGP820102)	147.017	*	*	*
+Membrane-buried preference parameters (ARGP820103)	101.675	*	*	*
+Conformational parameter of inner helix (BEGF750101)	321.63	*	*	*
+Conformational parameter of beta-structure (BEGF750102)	350.584	*	*	*
+Conformational parameter of beta-turn (BEGF750103)	175.181	*	*	*
+Average flexibility indices (BHAR880101)	314.44	*	*	*
+Residue volume (BIGC670101)	423.037	*	*	*
+Information value for accessibility; average fraction 35% (BIOV880101)	379.914	*	*	*
+Information value for accessibility; average fraction 23% (BIOV880102)	244.594	*	*	*
+Retention coefficient in TFA (BROC820101)	168.105	*	*	*
+Retention coefficient in HFBA (BROC820102)	327.011	*	*	*
+Transfer free energy to surface (BULH740101)	327.381	*	*	*
+Apparent partial specific volume (BULH740102)	300.511	*	*	*
+alpha-CH chemical shifts (BUNA790102)	464.958	*	*	*
+Spin-spin coupling constants 3JHalpha-NH (BUNA790103)	105.875	*	*	*
+Normalized frequency of alpha-helix (BURA740101)	231.683	*	*	*
+Normalized frequency of extended structure (BURA740102)	143.041	*	*	*
+Steric parameter (CHAM810101)	361.821	*	*	*
+Polarizability parameter (CHAM820101)	417.624	*	*	*
+Free energy of solution in water, kcal/mole (CHAM820102)	353.561	*	*	*
+The Chou-Fasman parameter of the coil conformation (CHAM830101)	144.387	*	*	*
+A parameter defined from the residuals obtained from the best correlation of the Chou-Fasman parameter of beta-sheet (CHAM830102)	67.593	*	*	*
+The number of atoms in the side chain labelled 1+1 (CHAM830103)	183.432	*	*	*
+The number of atoms in the side chain labelled 2+1 (CHAM830104)	43.895	*	*	*
+The number of atoms in the side chain labelled 3+1 (CHAM830105)	105.478	*	*	*
+The number of bonds in the longest chain (CHAM830106)	258.09	*	*	*
+A parameter of charge transfer capability (CHAM830107)	107.202	*	*	*
+A parameter of charge transfer donor capability (CHAM830108)	43.968	*	*	*
+Average volume of buried residue (CHOC750101)	491.154	*	*	*
+Residue accessible surface area in tripeptide (CHOC760101)	470.963	*	*	*
+Residue accessible surface area in folded protein (CHOC760102)	184.285	*	*	*
+Proportion of residues 95% buried (CHOC760103)	292.707	*	*	*
+Proportion of residues 100% buried (CHOC760104)	605.203	*	*	*
+Normalized frequency of beta-turn (CHOP780101)	201.604	*	*	*
+Normalized frequency of alpha-helix (CHOP780201)	266.831	*	*	*
+Normalized frequency of beta-sheet (CHOP780202)	449.599	*	*	*
+Normalized frequency of beta-turn (CHOP780203)	231.47	*	*	*
+Normalized frequency of N-terminal helix (CHOP780204)	211.023	*	*	*
+Normalized frequency of C-terminal helix (CHOP780205)	301.187	*	*	*
+Normalized frequency of N-terminal non helical region (CHOP780206)	327.427	*	*	*
+Normalized frequency of C-terminal non helical region (CHOP780207)	299.869	*	*	*
+Normalized frequency of N-terminal beta-sheet (CHOP780208)	508.298	*	*	*
+Normalized frequency of C-terminal beta-sheet (CHOP780209)	294.091	*	*	*
+Normalized frequency of N-terminal non beta region (CHOP780210)	361.705	*	*	*
+Normalized frequency of C-terminal non beta region (CHOP780211)	324.319	*	*	*
+Frequency of the 1st residue in turn (CHOP780212)	330.237	*	*	*
+Frequency of the 2nd residue in turn (CHOP780213)	221.461	*	*	*
+Frequency of the 3rd residue in turn (CHOP780214)	173.319	*	*	*
+Frequency of the 4th residue in turn (CHOP780215)	185.462	*	*	*
+Normalized frequency of the 2nd and 3rd residues in turn (CHOP780216)	185.1	*	*	*
+Normalized hydrophobicity scales for alpha-proteins (CIDH920101)	519.53	*	*	*
+Normalized hydrophobicity scales for beta-proteins (CIDH920102)	367.857	*	*	*
+Normalized hydrophobicity scales for alpha+beta-proteins (CIDH920103)	177.546	*	*	*
+Normalized hydrophobicity scales for alpha/beta-proteins (CIDH920104)	305.12	*	*	*
+Normalized average hydrophobicity scales (CIDH920105)	471.81	*	*	*
+Partial specific volume (COHE430101)	304.922	*	*	*
+Normalized frequency of middle helix (CRAJ730101)	173.619	*	*	*
+Normalized frequency of beta-sheet (CRAJ730102)	362.666	*	*	*
+Normalized frequency of turn (CRAJ730103)	305.427	*	*	*
+Size (DAWD720101)	379.007	*	*	*
+Amino acid composition (DAYM780101)	194.688	*	*	*
+Relative mutability (DAYM780201)	375.479	*	*	*
+Membrane preference for cytochrome b: MPH89 (DESM900101)	298.29	*	*	*
+Average membrane preference: AMP07 (DESM900102)	295.013	*	*	*
+Consensus normalized hydrophobicity scale (EISD840101)	416.948	*	*	*
+Solvation free energy (EISD860101)	328.3	*	*	*
+Atom-based hydrophobic moment (EISD860102)	132.005	*	*	*
+Direction of hydrophobic moment (EISD860103)	461.925	*	*	*
+Molecular weight (FASG760101)	464.374	*	*	*
+Melting point (FASG760102)	256.784	*	*	*
+Optical rotation (FASG760103)	188.945	*	*	*
+pK-N (FASG760104)	246.615	*	*	*
+pK-C (FASG760105)	418.796	*	*	*
+Hydrophobic parameter pi (FAUJ830101)	364.761	*	*	*
+Graph shape index (FAUJ880101)	137.331	*	*	*
+Smoothed upsilon steric parameter (FAUJ880102)	387.06	*	*	*
+Normalized van der Waals volume (FAUJ880103)	492.806	*	*	*
+STERIMOL length of the side chain (FAUJ880104)	304.104	*	*	*
+STERIMOL minimum width of the side chain (FAUJ880105)	226.898	*	*	*
+STERIMOL maximum width of the side chain (FAUJ880106)	369.911	*	*	*
+N.m.r. chemical shift of alpha-carbon (FAUJ880107)	584.287	*	*	*
+Localized electrical effect (FAUJ880108)	417.802	*	*	*
+Number of hydrogen bond donors (FAUJ880109)	143.425	*	*	*
+Number of full nonbonding orbitals (FAUJ880110)	94.593	*	*	*
+Positive charge (FAUJ880111)	194.272	*	*	*
+Negative charge (FAUJ880112)	69.444	*	*	*
+pK-a(RCOOH) (FAUJ880113)	136.431	*	*	*
+Helix-coil equilibrium constant (FINA770101)	210.671	*	*	*
+Helix initiation parameter at posision i-1 (FINA910101)	231.534	*	*	*
+Helix termination parameter at posision j-2,j-1,j (FINA910103)	199.509	*	*	*
+Helix termination parameter at posision j+1 (FINA910104)	329.999	*	*	*
+Partition coefficient (GARJ730101)	119.182	*	*	*
+Alpha-helix indices (GEIM800101)	390.079	*	*	*
+Alpha-helix indices for alpha-proteins (GEIM800102)	178.913	*	*	*
+Alpha-helix indices for beta-proteins (GEIM800103)	272.09	*	*	*
+Alpha-helix indices for alpha/beta-proteins (GEIM800104)	109.497	*	*	*
+Beta-strand indices (GEIM800105)	122.96	*	*	*
+Beta-strand indices for beta-proteins (GEIM800106)	165.729	*	*	*
+Beta-strand indices for alpha/beta-proteins (GEIM800107)	190.172	*	*	*
+Aperiodic indices (GEIM800108)	200.668	*	*	*
+Aperiodic indices for alpha-proteins (GEIM800109)	193.861	*	*	*
+Aperiodic indices for beta-proteins (GEIM800110)	292.923	*	*	*
+Aperiodic indices for alpha/beta-proteins (GEIM800111)	188.65	*	*	*
+Hydrophobicity factor (GOLD730101)	363.993	*	*	*
+Residue volume (GOLD730102)	426.84	*	*	*
+Composition (GRAR740101)	257.884	*	*	*
+Polarity (GRAR740102)	340.553	*	*	*
+Volume (GRAR740103)	335.643	*	*	*
+Partition energy (GUYH850101)	512.224	*	*	*
+Hydration number (Hopfinger, 1971), Cited by Charton-Charton (HOPA770101)	278.795	*	*	*
+Hydrophilicity value (HOPT810101)	494.788	*	*	*
+Heat capacity (HUTJ700101)	432.915	*	*	*
+Absolute entropy (HUTJ700102)	528.473	*	*	*
+Entropy of formation (HUTJ700103)	426.715	*	*	*
+Normalized relative frequency of alpha-helix (ISOY800101)	176.771	*	*	*
+Normalized relative frequency of extended structure (ISOY800102)	674.983	*	*	*
+Normalized relative frequency of bend (ISOY800103)	236.364	*	*	*
+Normalized relative frequency of bend R (ISOY800104)	187.447	*	*	*
+Normalized relative frequency of bend S (ISOY800105)	469.878	*	*	*
+Normalized relative frequency of helix end (ISOY800106)	418.292	*	*	*
+Normalized relative frequency of double bend (ISOY800107)	373.216	*	*	*
+Normalized relative frequency of coil (ISOY800108)	415.109	*	*	*
+Average accessible surface area (JANJ780101)	356.153	*	*	*
+Percentage of buried residues (JANJ780102)	245.759	*	*	*
+Percentage of exposed residues (JANJ780103)	293.682	*	*	*
+Ratio of buried and accessible molar fractions (JANJ790101)	371.013	*	*	*
+Transfer free energy (JANJ790102)	485.414	*	*	*
+Hydrophobicity (JOND750101)	468.317	*	*	*
+pK (-COOH) (JOND750102)	228.797	*	*	*
+Relative frequency of occurrence (JOND920101)	163.546	*	*	*
+Relative mutability (JOND920102)	275.167	*	*	*
+Amino acid distribution (JUKT750101)	349.547	*	*	*
+Sequence frequency (JUNJ780101)	182.434	*	*	*
+Average relative probability of helix (KANM800101)	524.254	*	*	*
+Average relative probability of beta-sheet (KANM800102)	168.954	*	*	*
+Average relative probability of inner helix (KANM800103)	212.301	*	*	*
+Average relative probability of inner beta-sheet (KANM800104)	223.539	*	*	*
+Flexibility parameter for no rigid neighbors (KARP850101)	427.446	*	*	*
+Flexibility parameter for one rigid neighbor (KARP850102)	196.082	*	*	*
+Flexibility parameter for two rigid neighbors (KARP850103)	117.506	*	*	*
+The Kerr-constant increments (KHAG800101)	345.024	*	*	*
+Net charge (KLEP840101)	196.238	*	*	*
+Side chain interaction parameter (KRIW710101)	354.378	*	*	*
+Side chain interaction parameter (KRIW790101)	489.909	*	*	*
+Fraction of site occupied by water (KRIW790102)	219.981	*	*	*
+Side chain volume (KRIW790103)	395.741	*	*	*
+Hydropathy index (KYTJ820101)	171.323	*	*	*
+Transfer free energy, CHP/water (LAWE840101)	171.226	*	*	*
+Hydrophobic parameter (LEVM760101)	441.982	*	*	*
+Distance between C-alpha and centroid of side chain (LEVM760102)	275.909	*	*	*
+Side chain angle theta(AAR) (LEVM760103)	133.457	*	*	*
+Side chain torsion angle phi(AAAR) (LEVM760104)	520.484	*	*	*
+Radius of gyration of side chain (LEVM760105)	401.463	*	*	*
+van der Waals parameter R0 (LEVM760106)	462.495	*	*	*
+van der Waals parameter epsilon (LEVM760107)	160.094	*	*	*
+Normalized frequency of alpha-helix, with weights (LEVM780101)	296.519	*	*	*
+Normalized frequency of beta-sheet, with weights (LEVM780102)	158.482	*	*	*
+Normalized frequency of reverse turn, with weights (LEVM780103)	239.983	*	*	*
+Normalized frequency of alpha-helix, unweighted (LEVM780104)	355.105	*	*	*
+Normalized frequency of beta-sheet, unweighted (LEVM780105)	267.145	*	*	*
+Normalized frequency of reverse turn, unweighted (LEVM780106)	146.197	*	*	*
+Frequency of occurrence in beta-bends (LEWP710101)	135.578	*	*	*
+Conformational preference for all beta-strands (LIFS790101)	443.088	*	*	*
+Conformational preference for parallel beta-strands (LIFS790102)	122.72	*	*	*
+Conformational preference for antiparallel beta-strands (LIFS790103)	310.839	*	*	*
+Average surrounding hydrophobicity (MANP780101)	348.569	*	*	*
+Normalized frequency of alpha-helix (MAXF760101)	150.434	*	*	*
+Normalized frequency of extended structure (MAXF760102)	273.921	*	*	*
+Normalized frequency of zeta R (MAXF760103)	228.416	*	*	*
+Normalized frequency of left-handed alpha-helix (MAXF760104)	337.022	*	*	*
+Normalized frequency of zeta L (MAXF760105)	246.874	*	*	*
+Normalized frequency of alpha region (MAXF760106)	493.489	*	*	*
+Refractivity (McMeekin et al., 1964), Cited by Jones (MCMT640101)	463.341	*	*	*
+Retention coefficient in HPLC, pH7.4 (MEEJ800101)	254.584	*	*	*
+Retention coefficient in HPLC, pH2.1 (MEEJ800102)	121.453	*	*	*
+Retention coefficient in NaClO4 (MEEJ810101)	306.173	*	*	*
+Retention coefficient in NaH2PO4 (MEEJ810102)	224.427	*	*	*
+Average reduced distance for C-alpha (MEIH800101)	240.754	*	*	*
+Average reduced distance for side chain (MEIH800102)	263.738	*	*	*
+Average side chain orientation angle (MEIH800103)	236.463	*	*	*
+Effective partition energy (MIYS850101)	346.203	*	*	*
+Normalized frequency of alpha-helix (NAGK730101)	416.16	*	*	*
+Normalized frequency of bata-structure (NAGK730102)	173.317	*	*	*
+Normalized frequency of coil (NAGK730103)	119.129	*	*	*
+AA composition of total proteins (NAKH900101)	281.102	*	*	*
+SD of AA composition of total proteins (NAKH900102)	146.905	*	*	*
+AA composition of mt-proteins (NAKH900103)	334.016	*	*	*
+Normalized composition of mt-proteins (NAKH900104)	138.585	*	*	*
+AA composition of mt-proteins from animal (NAKH900105)	418.117	*	*	*
+Normalized composition from animal (NAKH900106)	143.792	*	*	*
+AA composition of mt-proteins from fungi and plant (NAKH900107)	285.414	*	*	*
+Normalized composition from fungi and plant (NAKH900108)	206.329	*	*	*
+AA composition of membrane proteins (NAKH900109)	212.998	*	*	*
+Normalized composition of membrane proteins (NAKH900110)	281.022	*	*	*
+Transmembrane regions of non-mt-proteins (NAKH900111)	280.808	*	*	*
+Transmembrane regions of mt-proteins (NAKH900112)	121.801	*	*	*
+Ratio of average and computed composition (NAKH900113)	261.776	*	*	*
+AA composition of CYT of single-spanning proteins (NAKH920101)	347.482	*	*	*
+AA composition of CYT2 of single-spanning proteins (NAKH920102)	345.479	*	*	*
+AA composition of EXT of single-spanning proteins (NAKH920103)	243.79	*	*	*
+AA composition of EXT2 of single-spanning proteins (NAKH920104)	325.507	*	*	*
+AA composition of MEM of single-spanning proteins (NAKH920105)	266.344	*	*	*
+AA composition of CYT of multi-spanning proteins (NAKH920106)	235.113	*	*	*
+AA composition of EXT of multi-spanning proteins (NAKH920107)	96.071	*	*	*
+AA composition of MEM of multi-spanning proteins (NAKH920108)	100.606	*	*	*
+8 A contact number (NISK800101)	289.712	*	*	*
+14 A contact number (NISK860101)	511.936	*	*	*
+Transfer energy, organic solvent/water (NOZY710101)	233.935	*	*	*
+Average non-bonded energy per atom (OOBM770101)	338.772	*	*	*
+Short and medium range non-bonded energy per atom (OOBM770102)	245.22	*	*	*
+Long range non-bonded energy per atom (OOBM770103)	376.278	*	*	*
+Average non-bonded energy per residue (OOBM770104)	219.852	*	*	*
+Short and medium range non-bonded energy per residue (OOBM770105)	227.792	*	*	*
+Optimized beta-structure-coil equilibrium constant (OOBM850101)	133.504	*	*	*
+Optimized propensity to form reverse turn (OOBM850102)	84.149	*	*	*
+Optimized transfer energy parameter (OOBM850103)	236.716	*	*	*
+Optimized average non-bonded energy per atom (OOBM850104)	190.243	*	*	*
+Optimized side chain interaction parameter (OOBM850105)	252.209	*	*	*
+Normalized frequency of alpha-helix from LG (PALJ810101)	326.051	*	*	*
+Normalized frequency of alpha-helix from CF (PALJ810102)	188.726	*	*	*
+Normalized frequency of beta-sheet from LG (PALJ810103)	159.493	*	*	*
+Normalized frequency of beta-sheet from CF (PALJ810104)	158.66	*	*	*
+Normalized frequency of turn from LG (PALJ810105)	265.486	*	*	*
+Normalized frequency of turn from CF (PALJ810106)	162.37	*	*	*
+Normalized frequency of alpha-helix in all-alpha class (PALJ810107)	226.408	*	*	*
+Normalized frequency of alpha-helix in alpha+beta class (PALJ810108)	362.078	*	*	*
+Normalized frequency of alpha-helix in alpha/beta class (PALJ810109)	119.232	*	*	*
+Normalized frequency of beta-sheet in all-beta class (PALJ810110)	111.284	*	*	*
+Normalized frequency of beta-sheet in alpha+beta class (PALJ810111)	152.275	*	*	*
+Normalized frequency of beta-sheet in alpha/beta class (PALJ810112)	217.324	*	*	*
+Normalized frequency of turn in all-alpha class (PALJ810113)	299.947	*	*	*
+Normalized frequency of turn in all-beta class (PALJ810114)	335.397	*	*	*
+Normalized frequency of turn in alpha+beta class (PALJ810115)	335.116	*	*	*
+Normalized frequency of turn in alpha/beta class (PALJ810116)	216.215	*	*	*
+HPLC parameter (PARJ860101)	276.216	*	*	*
+Partition coefficient (PLIV810101)	236.46	*	*	*
+Surrounding hydrophobicity in folded form (PONP800101)	450.911	*	*	*
+Average gain in surrounding hydrophobicity (PONP800102)	296.683	*	*	*
+Average gain ratio in surrounding hydrophobicity (PONP800103)	302.853	*	*	*
+Surrounding hydrophobicity in alpha-helix (PONP800104)	364.599	*	*	*
+Surrounding hydrophobicity in beta-sheet (PONP800105)	161.745	*	*	*
+Surrounding hydrophobicity in turn (PONP800106)	215.23	*	*	*
+Accessibility reduction ratio (PONP800107)	103.078	*	*	*
+Average number of surrounding residues (PONP800108)	303.128	*	*	*
+Intercept in regression analysis (PRAM820101)	252.077	*	*	*
+Slope in regression analysis x 1.0E1 (PRAM820102)	174.813	*	*	*
+Correlation coefficient in regression analysis (PRAM820103)	369.974	*	*	*
+Hydrophobicity (PRAM900101)	217.378	*	*	*
+Relative frequency in reverse-turn (PRAM900104)	221.654	*	*	*
+Helix-coil equilibrium constant (PTIO830101)	83.48	*	*	*
+Beta-coil equilibrium constant (PTIO830102)	443.253	*	*	*
+Weights for alpha-helix at the window position of -6 (QIAN880101)	482.888	*	*	*
+Weights for alpha-helix at the window position of -5 (QIAN880102)	386.883	*	*	*
+Weights for alpha-helix at the window position of -4 (QIAN880103)	145.033	*	*	*
+Weights for alpha-helix at the window position of -3 (QIAN880104)	330.351	*	*	*
+Weights for alpha-helix at the window position of -2 (QIAN880105)	274.866	*	*	*
+Weights for alpha-helix at the window position of -1 (QIAN880106)	344.181	*	*	*
+Weights for alpha-helix at the window position of 0 (QIAN880107)	247.508	*	*	*
+Weights for alpha-helix at the window position of 1 (QIAN880108)	94.817	*	*	*
+Weights for alpha-helix at the window position of 2 (QIAN880109)	136.062	*	*	*
+Weights for alpha-helix at the window position of 3 (QIAN880110)	125.745	*	*	*
+Weights for alpha-helix at the window position of 4 (QIAN880111)	114.553	*	*	*
+Weights for alpha-helix at the window position of 5 (QIAN880112)	324.382	*	*	*
+Weights for alpha-helix at the window position of 6 (QIAN880113)	368.188	*	*	*
+Weights for beta-sheet at the window position of -6 (QIAN880114)	297.326	*	*	*
+Weights for beta-sheet at the window position of -5 (QIAN880115)	168.823	*	*	*
+Weights for beta-sheet at the window position of -4 (QIAN880116)	339.068	*	*	*
+Weights for beta-sheet at the window position of -3 (QIAN880117)	350.15	*	*	*
+Weights for beta-sheet at the window position of -2 (QIAN880118)	125.95	*	*	*
+Weights for beta-sheet at the window position of -1 (QIAN880119)	102.09	*	*	*
+Weights for beta-sheet at the window position of 0 (QIAN880120)	319.143	*	*	*
+Weights for beta-sheet at the window position of 1 (QIAN880121)	231.855	*	*	*
+Weights for beta-sheet at the window position of 2 (QIAN880122)	329.175	*	*	*
+Weights for beta-sheet at the window position of 3 (QIAN880123)	413.651	*	*	*
+Weights for beta-sheet at the window position of 4 (QIAN880124)	317.093	*	*	*
+Weights for beta-sheet at the window position of 5 (QIAN880125)	137.393	*	*	*
+Weights for beta-sheet at the window position of 6 (QIAN880126)	477.795	*	*	*
+Weights for coil at the window position of -6 (QIAN880127)	331.057	*	*	*
+Weights for coil at the window position of -5 (QIAN880128)	501.121	*	*	*
+Weights for coil at the window position of -4 (QIAN880129)	214.391	*	*	*
+Weights for coil at the window position of -3 (QIAN880130)	345.072	*	*	*
+Weights for coil at the window position of -2 (QIAN880131)	135.29	*	*	*
+Weights for coil at the window position of -1 (QIAN880132)	232.186	*	*	*
+Weights for coil at the window position of 0 (QIAN880133)	345.13	*	*	*
+Weights for coil at the window position of 1 (QIAN880134)	367.081	*	*	*
+Weights for coil at the window position of 2 (QIAN880135)	177.238	*	*	*
+Weights for coil at the window position of 3 (QIAN880136)	377.932	*	*	*
+Weights for coil at the window position of 4 (QIAN880137)	169.963	*	*	*
+Weights for coil at the window position of 5 (QIAN880138)	444.704	*	*	*
+Weights for coil at the window position of 6 (QIAN880139)	271.938	*	*	*
+Average reduced distance for C-alpha (RACS770101)	243.357	*	*	*
+Average reduced distance for side chain (RACS770102)	224.778	*	*	*
+Side chain orientational preference (RACS770103)	348.458	*	*	*
+Average relative fractional occurrence in A0(i) (RACS820101)	161.354	*	*	*
+Average relative fractional occurrence in AR(i) (RACS820102)	417.443	*	*	*
+Average relative fractional occurrence in AL(i) (RACS820103)	385.469	*	*	*
+Average relative fractional occurrence in EL(i) (RACS820104)	101.478	*	*	*
+Average relative fractional occurrence in E0(i) (RACS820105)	328.666	*	*	*
+Average relative fractional occurrence in ER(i) (RACS820106)	261.791	*	*	*
+Average relative fractional occurrence in A0(i-1) (RACS820107)	398.084	*	*	*
+Average relative fractional occurrence in AR(i-1) (RACS820108)	255.571	*	*	*
+Average relative fractional occurrence in AL(i-1) (RACS820109)	350.127	*	*	*
+Average relative fractional occurrence in EL(i-1) (RACS820110)	264.022	*	*	*
+Average relative fractional occurrence in E0(i-1) (RACS820111)	194.076	*	*	*
+Average relative fractional occurrence in ER(i-1) (RACS820112)	252.792	*	*	*
+Value of theta(i) (RACS820113)	318.128	*	*	*
+Value of theta(i-1) (RACS820114)	313.374	*	*	*
+Transfer free energy from chx to wat (RADA880101)	326.604	*	*	*
+Transfer free energy from oct to wat (RADA880102)	445.805	*	*	*
+Transfer free energy from vap to chx (RADA880103)	230.468	*	*	*
+Transfer free energy from chx to oct (RADA880104)	379.958	*	*	*
+Transfer free energy from vap to oct (RADA880105)	397.999	*	*	*
+Accessible surface area (RADA880106)	483.75	*	*	*
+Energy transfer from out to in (95%buried) (RADA880107)	248.336	*	*	*
+Mean polarity (RADA880108)	455.761	*	*	*
+Relative preference value at N" (RICJ880101)	347.061	*	*	*
+Relative preference value at N-cap (RICJ880103)	356.778	*	*	*
+Relative preference value at N1 (RICJ880104)	453.592	*	*	*
+Relative preference value at N2 (RICJ880105)	190.761	*	*	*
+Relative preference value at N3 (RICJ880106)	258.633	*	*	*
+Relative preference value at N4 (RICJ880107)	155.394	*	*	*
+Relative preference value at N5 (RICJ880108)	234.62	*	*	*
+Relative preference value at Mid (RICJ880109)	164.677	*	*	*
+Relative preference value at C5 (RICJ880110)	231.819	*	*	*
+Relative preference value at C4 (RICJ880111)	319.821	*	*	*
+Relative preference value at C3 (RICJ880112)	162.245	*	*	*
+Relative preference value at C2 (RICJ880113)	362.294	*	*	*
+Relative preference value at C1 (RICJ880114)	131.221	*	*	*
+Relative preference value at C-cap (RICJ880115)	303.545	*	*	*
+Relative preference value at C' (RICJ880116)	199.477	*	*	*
+Relative preference value at C" (RICJ880117)	271.892	*	*	*
+Information measure for alpha-helix (ROBB760101)	246.369	*	*	*
+Information measure for N-terminal helix (ROBB760102)	141.356	*	*	*
+Information measure for middle helix (ROBB760103)	129.584	*	*	*
+Information measure for C-terminal helix (ROBB760104)	278.026	*	*	*
+Information measure for extended (ROBB760105)	389.073	*	*	*
+Information measure for pleated-sheet (ROBB760106)	331.644	*	*	*
+Information measure for extended without H-bond (ROBB760107)	264.143	*	*	*
+Information measure for turn (ROBB760108)	325.372	*	*	*
+Information measure for N-terminal turn (ROBB760109)	446.654	*	*	*
+Information measure for middle turn (ROBB760110)	228.805	*	*	*
+Information measure for C-terminal turn (ROBB760111)	262.031	*	*	*
+Information measure for coil (ROBB760112)	226.023	*	*	*
+Information measure for loop (ROBB760113)	304.136	*	*	*
+Hydration free energy (ROBB790101)	253.807	*	*	*
+Mean area buried on transfer (ROSG850101)	328.887	*	*	*
+Mean fractional area loss (ROSG850102)	395.799	*	*	*
+Side chain hydropathy, uncorrected for solvation (ROSM880101)	342.582	*	*	*
+Side chain hydropathy, corrected for solvation (ROSM880102)	302.719	*	*	*
+Loss of Side chain hydropathy by helix formation (ROSM880103)	210.406	*	*	*
+Transfer free energy (Simon, 1976), Cited by Charton-Charton (SIMZ760101)	592.053	*	*	*
+Principal component I (SNEP660101)	346.678	*	*	*
+Principal component II (SNEP660102)	246.299	*	*	*
+Principal component III (SNEP660103)	314.016	*	*	*
+Principal component IV (SNEP660104)	461.146	*	*	*
+Zimm-Bragg parameter s at 20 C (SUEM840101)	296.808	*	*	*
+Zimm-Bragg parameter sigma x 1.0E4 (SUEM840102)	305.309	*	*	*
+Optimal matching hydrophobicity (SWER830101)	212.916	*	*	*
+Normalized frequency of alpha-helix (TANS770101)	202.301	*	*	*
+Normalized frequency of isolated helix (TANS770102)	433.961	*	*	*
+Normalized frequency of extended structure (TANS770103)	319.704	*	*	*
+Normalized frequency of chain reversal R (TANS770104)	88.711	*	*	*
+Normalized frequency of chain reversal S (TANS770105)	295.487	*	*	*
+Normalized frequency of chain reversal D (TANS770106)	183.434	*	*	*
+Normalized frequency of left-handed helix (TANS770107)	368.554	*	*	*
+Normalized frequency of zeta R (TANS770108)	203.428	*	*	*
+Normalized frequency of coil (TANS770109)	423.178	*	*	*
+Normalized frequency of chain reversal (TANS770110)	245.539	*	*	*
+Relative population of conformational state A (VASM830101)	249.478	*	*	*
+Relative population of conformational state C (VASM830102)	711.728	*	*	*
+Relative population of conformational state E (VASM830103)	344.052	*	*	*
+Electron-ion interaction potential (VELV850101)	322.146	*	*	*
+Bitterness (VENT840101)	179.566	*	*	*
+Transfer free energy to lipophilic phase (VHEG790101)	255.466	*	*	*
+Average interactions per side chain atom (WARP780101)	126.607	*	*	*
+RF value in high salt chromatography (WEBA780101)	149.043	*	*	*
+Propensity to be buried inside (WERD780101)	406.719	*	*	*
+Free energy change of epsilon(i) to epsilon(ex) (WERD780102)	269.108	*	*	*
+Free energy change of alpha(Ri) to alpha(Rh) (WERD780103)	212.392	*	*	*
+Free energy change of epsilon(i) to alpha(Rh) (WERD780104)	224.852	*	*	*
+Polar requirement (WOEC730101)	272.073	*	*	*
+Hydration potential (WOLR810101)	430.132	*	*	*
+Principal property value z1 (WOLS870101)	181.409	*	*	*
+Principal property value z2 (WOLS870102)	212.958	*	*	*
+Principal property value z3 (WOLS870103)	200.605	*	*	*
+Unfolding Gibbs energy in water, pH7.0 (YUTK870101)	346.079	*	*	*
+Unfolding Gibbs energy in water, pH9.0 (YUTK870102)	303.799	*	*	*
+Activation Gibbs energy of unfolding, pH7.0 (YUTK870103)	79.465	*	*	*
+Activation Gibbs energy of unfolding, pH9.0 (YUTK870104)	79.465	*	*	*
+Dependence of partition coefficient on ionic strength (ZASB820101)	551.227	*	*	*
+Hydrophobicity (ZIMJ680101)	589.335	*	*	*
+Bulkiness (ZIMJ680102)	287.964	*	*	*
+Polarity (ZIMJ680103)	290.569	*	*	*
+Isoelectric point (ZIMJ680104)	317.734	*	*	*
+RF rank (ZIMJ680105)	406.242	*	*	*
+Normalized positional residue frequency at helix termini N4'(AURR980101)	163.103	*	*	*
+Normalized positional residue frequency at helix termini N"' (AURR980102)	211.469	*	*	*
+Normalized positional residue frequency at helix termini N" (AURR980103)	325.022	*	*	*
+Normalized positional residue frequency at helix termini N'(AURR980104)	189.1	*	*	*
+Normalized positional residue frequency at helix termini Nc (AURR980105)	237.251	*	*	*
+Normalized positional residue frequency at helix termini N1 (AURR980106)	192.701	*	*	*
+Normalized positional residue frequency at helix termini N2 (AURR980107)	176.044	*	*	*
+Normalized positional residue frequency at helix termini N3 (AURR980108)	203.97	*	*	*
+Normalized positional residue frequency at helix termini N4 (AURR980109)	209.234	*	*	*
+Normalized positional residue frequency at helix termini N5 (AURR980110)	245.046	*	*	*
+Normalized positional residue frequency at helix termini C5 (AURR980111)	229.002	*	*	*
+Normalized positional residue frequency at helix termini C4 (AURR980112)	220.358	*	*	*
+Normalized positional residue frequency at helix termini C3 (AURR980113)	156.227	*	*	*
+Normalized positional residue frequency at helix termini C2 (AURR980114)	211.907	*	*	*
+Normalized positional residue frequency at helix termini C1 (AURR980115)	113.99	*	*	*
+Normalized positional residue frequency at helix termini Cc (AURR980116)	323.127	*	*	*
+Normalized positional residue frequency at helix termini C' (AURR980117)	288.684	*	*	*
+Normalized positional residue frequency at helix termini C" (AURR980118)	265.031	*	*	*
+Normalized positional residue frequency at helix termini C"' (AURR980119)	217.34	*	*	*
+Normalized positional residue frequency at helix termini C4' (AURR980120)	310.353	*	*	*
+Delta G values for the peptides extrapolated to 0 M urea (ONEK900101)	200.35	*	*	*
+Helix formation parameters (delta delta G) (ONEK900102)	23.136	*	*
+Normalized flexibility parameters (B-values), average (VINM940101)	604.751	*	*	*
+Normalized flexibility parameters (B-values) for each residue surrounded by none rigid neighbours (VINM940102)	507.369	*	*	*
+Normalized flexibility parameters (B-values) for each residue surrounded by one rigid neighbours (VINM940103)	390.636	*	*	*
+Normalized flexibility parameters (B-values) for each residue surrounded by two rigid neighbours (VINM940104)	261.82	*	*	*
+Free energy in alpha-helical conformation (MUNV940101)	132.914	*	*	*
+Free energy in alpha-helical region (MUNV940102)	397.578	*	*	*
+Free energy in beta-strand conformation (MUNV940103)	253.155	*	*	*
+Free energy in beta-strand region (MUNV940104)	303.03	*	*	*
+Free energy in beta-strand region (MUNV940105)	346.167	*	*	*
+Free energies of transfer of AcWl-X-LL peptides from bilayer interface to water (WIMW960101)	247.89	*	*	*
+Thermodynamic beta sheet propensity (KIMC930101)	404.593	*	*	*
+Turn propensity scale for transmembrane helices (MONM990101)	444.543	*	*	*
+Alpha helix propensity of position 44 in T4 lysozyme (BLAM930101)	194.811	*	*	*
+p-Values of mesophilic proteins based on the distributions of B values (PARS000101)	326.376	*	*	*
+p-Values of thermophilic proteins based on the distributions of B values (PARS000102)	385.82	*	*	*
+Distribution of amino acid residues in the 18 non-redundant families of thermophilic proteins (KUMS000101)	224.964	*	*	*
+Distribution of amino acid residues in the 18 non-redundant families of mesophilic proteins (KUMS000102)	340.437	*	*	*
+Distribution of amino acid residues in the alpha-helices in thermophilic proteins (KUMS000103)	270.458	*	*	*
+Distribution of amino acid residues in the alpha-helices in mesophilic proteins (KUMS000104)	171.162	*	*	*
+Side-chain contribution to protein stability (kJ/mol) (TAKK010101)	402.602	*	*	*
+Propensity of amino acids within pi-helices (FODM020101)	108.235	*	*	*
+Hydropathy scale based on self-information values in the two-state model (5% accessibility) (NADH010101)	324.976	*	*	*
+Hydropathy scale based on self-information values in the two-state model (9% accessibility) (NADH010102)	273.297	*	*	*
+Hydropathy scale based on self-information values in the two-state model (16% accessibility) (NADH010103)	384.1	*	*	*
+Hydropathy scale based on self-information values in the two-state model (20% accessibility) (NADH010104)	373.05	*	*	*
+Hydropathy scale based on self-information values in the two-state model (25% accessibility) (NADH010105)	314.379	*	*	*
+Hydropathy scale based on self-information values in the two-state model (36% accessibility) (NADH010106)	115.838	*	*	*
+Hydropathy scale based on self-information values in the two-state model (50% accessibility) (NADH010107)	180.306	*	*	*
+Averaged turn propensities in a transmembrane helix (MONM990201)	32.306	*	*	*
+Alpha-helix propensity derived from designed sequences (KOEP990101)	486.936	*	*	*
+Beta-sheet propensity derived from designed sequences (KOEP990102)	389.969	*	*	*
+Composition of amino acids in extracellular proteins (percent) (CEDJ970101)	261.455	*	*	*
+Composition of amino acids in anchored proteins (percent) (CEDJ970102)	163.16	*	*	*
+Composition of amino acids in membrane proteins (percent) (CEDJ970103)	105.72	*	*	*
+Composition of amino acids in intracellular proteins (percent) (CEDJ970104)	168.571	*	*	*
+Composition of amino acids in nuclear proteins (percent) (CEDJ970105)	239.872	*	*	*
+Surface composition of amino acids in intracellular proteins of thermophiles (percent) (FUKS010101)	156.997	*	*	*
+Surface composition of amino acids in intracellular proteins of mesophiles (percent) (FUKS010102)	173.504	*	*	*
+Surface composition of amino acids in extracellular proteins of mesophiles (percent) (FUKS010103)	425.923	*	*	*
+Surface composition of amino acids in nuclear proteins (percent) (FUKS010104)	370.565	*	*	*
+Interior composition of amino acids in intracellular proteins of thermophiles (percent) (FUKS010105)	184.89	*	*	*
+Interior composition of amino acids in intracellular proteins of mesophiles (percent) (FUKS010106)	372.202	*	*	*
+Interior composition of amino acids in extracellular proteins of mesophiles (percent) (FUKS010107)	322.905	*	*	*
+Interior composition of amino acids in nuclear proteins (percent) (FUKS010108)	68.497	*	*	*
+Entire chain composition of amino acids in intracellular proteins of thermophiles (percent) (FUKS010109)	290.716	*	*	*
+Entire chain composition of amino acids in intracellular proteins of mesophiles (percent) (FUKS010110)	216.345	*	*	*
+Entire chain composition of amino acids in extracellular proteins of mesophiles (percent) (FUKS010111)	377.152	*	*	*
+Entire chain compositino of amino acids in nuclear proteins (percent) (FUKS010112)	251.996	*	*	*
+Amphiphilicity index (MITS020101)	232.215	*	*	*
+Volumes including the crystallographic waters using the ProtOr (TSAJ990101)	540.132	*	*	*
+Volumes not including the crystallographic waters using the ProtOr (TSAJ990102)	540.132	*	*	*
+Electron-ion interaction potential values (COSI940101)	322.146	*	*	*
+Hydrophobicity scales (PONP930101)	341.957	*	*	*
+Hydrophobicity coefficient in RP-HPLC, C18 with 0.1%TFA/MeCN/H2O (WILM950101)	328.519	*	*	*
+Hydrophobicity coefficient in RP-HPLC, C8 with 0.1%TFA/MeCN/H2O (WILM950102)	270.214	*	*	*
+Hydrophobicity coefficient in RP-HPLC, C4 with 0.1%TFA/MeCN/H2O (WILM950103)	410.474	*	*	*
+Hydrophobicity coefficient in RP-HPLC, C18 with 0.1%TFA/2-PrOH/MeCN/H2O (WILM950104)	181.305	*	*	*
+Hydrophilicity scale (KUHL950101)	272.053	*	*	*
+Retention coefficient at pH 2 (GUOD860101)	279.679	*	*	*
+Modified Kyte-Doolittle hydrophobicity scale (JURD980101)	189.991	*	*	*
+Interactivity scale obtained from the contact matrix (BASU050101)	249.356	*	*	*
+Interactivity scale obtained by maximizing the mean of correlation coefficient over single-domain globular proteins (BASU050102)	358.836	*	*	*
+Interactivity scale obtained by maximizing the mean of correlation coefficient over pairs of sequences sharing the TIM barrel fold (BASU050103)	272.241	*	*	*
+Linker propensity index (SUYM030101)	357.898	*	*	*
+Knowledge-based membrane-propensity scale from 1D_Helix in MPtopo databases (PUNT030101)	295.52	*	*	*
+Knowledge-based membrane-propensity scale from 3D_Helix in MPtopo databases (PUNT030102)	456.032	*	*	*
+Linker propensity from all dataset (GEOR030101)	201.909	*	*	*
+Linker propensity from 1-linker dataset (GEOR030102)	286.682	*	*	*
+Linker propensity from 2-linker dataset (GEOR030103)	420.376	*	*	*
+Linker propensity from 3-linker dataset (GEOR030104)	310.5	*	*	*
+Linker propensity from small dataset (linker length is less than six residues) (GEOR030105)	81.837	*	*	*
+Linker propensity from medium dataset (linker length is between six and 14 residues) (GEOR030106)	114.524	*	*	*
+Linker propensity from long dataset (linker length is greater than 14 residues) (GEOR030107)	257.044	*	*	*
+Linker propensity from helical (annotated by DSSP) dataset (GEOR030108)	184.263	*	*	*
+Linker propensity from non-helical (annotated by DSSP) dataset (GEOR030109)	105.408	*	*	*
+The stability scale from the knowledge-based atom-atom potential (ZHOH040101)	309.164	*	*	*
+The relative stability scale extracted from mutation experiments (ZHOH040102)	391.551	*	*	*
+Buriability (ZHOH040103)	236.162	*	*	*
+Linker index (BAEK050101)	244.038	*	*	*
+Mean volumes of residues buried in protein interiors (HARY940101)	546.709	*	*	*
+Average volumes of residues (PONJ960101)	523.384	*	*	*
+Hydrostatic pressure asymmetry index, PAI (DIGM050101)	215.466	*	*	*
+Hydrophobicity index (WOLR790101)	478.173	*	*	*
+Average internal preferences (OLSK800101)	283.182	*	*	*
+Hydrophobicity-related index (KIDA850101)	194.66	*	*	*
+Apparent partition energies calculated from Wertz-Scheraga index (GUYH850102)	401.603	*	*	*
+Apparent partition energies calculated from Janin index (GUYH850104)	416.009	*	*	*
+Apparent partition energies calculated from Chothia index (GUYH850105)	314.479	*	*	*
+Weights from the IFH scale (JACR890101)	182.1	*	*	*
+Hydrophobicity index, 3.0 pH (COWR900101)	278.743	*	*	*
+Scaled side chain hydrophobicity values (BLAS910101)	405.934	*	*	*
+Hydrophobicity scale from native protein structures (CASG920101)	340.777	*	*	*
+NNEIG index (CORJ870101)	227.18	*	*	*
+SWEIG index (CORJ870102)	212.916	*	*	*
+PRIFT index (CORJ870103)	371.308	*	*	*
+PRILS index (CORJ870104)	393.948	*	*	*
+ALTFT index (CORJ870105)	393.178	*	*	*
+ALTLS index (CORJ870106)	278.386	*	*	*
+TOTFT index (CORJ870107)	368.445	*	*	*
+TOTLS index (CORJ870108)	350.638	*	*	*
+Relative partition energies derived by the Bethe approximation (MIYS990101)	325.041	*	*	*
+Optimized relative partition energies - method A (MIYS990102)	317.964	*	*	*
+Optimized relative partition energies - method B (MIYS990103)	420.994	*	*	*
+Optimized relative partition energies - method C (MIYS990104)	435.301	*	*	*
+Optimized relative partition energies - method D (MIYS990105)	376.942	*	*	*
+Hydrophobicity index (ENGD860101)	217.378	*	*	*
+Hydrophobicity index (FASG890101)	347.838	*	*	*
+Buriedness (UNKNOWNREF)	278.219	*	*	*
+Compressibility (UNKNOWNREF)	145.995	*	*	*
+Helical contact area (UNKNOWNREF)	437.919	*	*	*
+Mean r.m.s. fluctuation displacement (UNKNOWNREF)	362.777	*	*	*
+Normalized consensus hydrophobicity (UNKNOWNREF)	374.084	*	*	*
+Partial specific volume (IQBAL880101)	364.53	*	*	*
+Power to be at the C-terminal (UNKNOWNREF)	245.631	*	*	*
+Power to be at the middle of alpha-helix (UNKNOWNREF)	147.311	*	*	*
+Power to be at the N-terminal (UNKNOWNREF)	128.746	*	*	*
+Surrounding hydrophobicity (UNKNOWNREF)	341.957	*	*	*
