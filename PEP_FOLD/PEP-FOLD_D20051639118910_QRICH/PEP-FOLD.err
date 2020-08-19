@@ -1,0 +1,190 @@
+PEPFOLD2 Initial start: True
+PEPFOLD2 v1.0
+  hmmBiasValue: 0.5
+     seqFile: iSeq.data
+         tto: 31
+   threshold: 0.6
+  extremities: False
+  clusterize: 3
+    HESmooth: True
+     PPPOnly: False
+    linkCdom: None
+      idFile: None
+    autoFrom: 1
+  neighbours: None
+     program: CABuilder
+     zoneStr: None
+       nIter: 1
+      zipAmp: 1
+     outHeap: None
+     datFile: None
+  greedyBinPath: /usr/local/PyGreedy/bin
+    probFile: None
+         trj: None
+  boolMatFile: /usr/local/PyGreedy/lib/boolean.0.000001.new
+  letterFilter: True
+     trjMask: None
+      autoTo: -1
+    refZones: None
+        mode: 2
+     zipFrom: None
+       debug: False
+      outDir: clusters
+     psipred: False
+  searchAmbiguous: True
+       force: False
+   reference: None
+     lastest: False
+      energy: False
+      runPPP: True
+      refPDB: None
+         tex: False
+     tmpPath: /tmp/pydbclusters
+   maxSimSze: 36
+  greedyDbPath: /usr/local/PyGreedy/lib
+       doPPP: True
+        qkey: tm
+   loopModel: None
+    maxProto: 3
+      sgemap: None
+  sgePostTreat: True
+       movie: False
+       label: PEPFOLD
+       score: TMscore
+    SVMmodel: LS-All.0.wght.svmi8.model
+     userTrj: None
+    pepfold1: False
+  doClusters: True
+  maxLetters: 8
+       s2Seq: None
+    loopMode: False
+     doBlast: True
+  runClusters: True
+     heapSze: 3000
+   SSBondsMC: 0.0
+  neighboursA: 10.0
+  clusteringOnly: False
+       ffrom: 1
+  hmmlibPath: /scratch/banks/PPP/HMM
+      filter: Dflt
+  whichSeuils: blast2006
+       doMQA: True
+  greedyOnly: False
+    linkNdom: None
+         pdb: None
+   pfHeapSze: 100
+   simFromTo: None
+  nlThreshold: 0.4
+   posttreat: False
+         sge: True
+     verbose: True
+         log: None
+      script: False
+    fileMask: *ene1mc-SC-min.pdb
+   pfRndFrom: 50
+    combined: False
+  autoFromToFile: None
+   OPEPWFile: /usr/local/PyGreedy/lib/bestVect.NewPMF-Perm-PMFonly-NewNatLk2.1back.150507.4_tail-PMFapplied-Gformat
+      medium: False
+       wPath: .
+  runClustering: True
+      rndZip: True
+      modAna: None
+          CS: False
+     zipMask: None
+    SSBondsA: 10.0
+     mcSteps: 300000
+       batch: False
+      isMain: True
+         fwd: False
+   prefilter: False
+     SVM2012: False
+    HEFilter: True
+        demo: None
+    runsFrom: 1
+  runPostTreatment: True
+  pppBinPath: /usr/local/PyPPP/bin
+     hmmBias: False
+    atomList: CA
+     maxProb: 0.3
+    doPostTT: True
+        seed: None
+        do3D: True
+  autoFromTo: True
+        nSub: 0
+     archive: None
+      CSFile: None
+  neighboursMC: 0.0
+   maxSeqSze: 50
+      i3DPDB: None
+    extModel: None
+          TM: False
+       split: 200
+          np: 8
+     SSBonds: None
+  distanceMatrix: None
+   runGreedy: True
+  shortcombined: True
+     rndFrom: 2000
+       aaSeq: SQSSSYGQPQSGSYSQQSSYGGQQQSYGQQQ
+  progressFile: .progress.txt
+         bck: False
+      mcTemp: 700
+    linkMode: False
+      s2File: None
+     sortKey: sOPEP
+  postTreatmentOnly: False
+   CSTabFile: None
+     rawdata: None
+  fileNotMask: None
+       nRuns: 100
+PyPPPExec  -s iSeq.data  -l PEPFOLD
+SAProbs: loaded profile PEPFOLD.svmi8.27.prob of length 28.
+SAProbs: loaded profile PEPFOLD.svmi8.27.prob of length 28.
+autoFrom: 0 autoTo: -1
+Swichting autoFromTo OFF
+Will run greedy from PEPFOLD2
+cluster [1-40]: GreedyExec -s iSeq.data -t PEPFOLD.trj -l PEPFOLD --zipMask PEPFOLD.gmask --SSA 10.000000 --MCSS 0.000000 --NBA 10.000000 --MCNB 0.000000 --clusterize 3 --mcTemp 1250 --sgemap
+cluster [41-80]: GreedyExec -s iSeq.data -t PEPFOLD.HEnoSmooth.sure.trj -l PEPFOLD --zipMask PEPFOLD.gmask --SSA 10.000000 --MCSS 0.000000 --NBA 10.000000 --MCNB 0.000000 --clusterize 3 --mcTemp 1250 --sgemap
+cluster [81-100]: GreedyExec -s iSeq.data -t PEPFOLD.noFilter.trj -l PEPFOLD --zipMask PEPFOLD.gmask --SSA 10.000000 --MCSS 0.000000 --NBA 10.000000 --MCNB 0.000000 --clusterize 3 --mcTemp 1250 --sgemap
+POSTTTExec --mask "*ene1mc.pdb" --oscar --pattern "*-%s_bestene1mc.pdb" 
+cluster [1-100]: POSTTTExec --mask "*ene1mc.pdb" --oscar --pattern "*-%s_bestene1mc.pdb" --parallelposttreatment --padding 3 --silent
+os.system: DBClustersExec -l prefix --mask "*-SC-min.pdb" --odir MQA --score TMscore --threshold 0.6
+PyDBClusters
+     verbose: False
+   reference: None
+      energy: False
+    atomList: CA
+         tex: False
+     tmpPath: /tmp/pydbclusters
+  nlThreshold: 0.4
+   threshold: 0.6
+        qkey: tm
+   posttreat: False
+         sge: False
+     archive: None
+         log: None
+    fileMask: *-SC-min.pdb
+       label: prefix
+       score: TMscore
+     zoneStr: None
+       split: 200
+          np: 8
+      nFiles: 100
+          TM: False
+      outDir: MQA
+  distanceMatrix: None
+       wPath: /scratch/mobyle/jobs/PEP-FOLD/D20051639118910
+        atms: ['CA']
+       doMQA: True
+      sgemap: False
+  progressFile: .progress.txt
+      isMain: True
+  fileNotMask: None
+       debug: False
+      idFile: None
+Will dbclusterize
+Will launch PyDBClust on directory: /tmp/pydbclusters, for reference None and outDir MQA. Score is TMscore
+rm: cannot remove 'apollo_out': Is a directoryWill append sOPEP energy information
+Will append ss bond closure information
+Will initialize the model visualization panel

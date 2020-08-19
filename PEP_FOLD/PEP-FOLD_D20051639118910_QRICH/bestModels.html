@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pose explorer</title>
+    <link href="/portal/css/mobyle.css" rel="stylesheet" type="text/css" media="screen">
+    <script type="text/javascript" src='/portal/js/jquery.js'></script>
+    <script type="text/javascript" src='/portal/js/query-string.js'></script>
+    <script type="text/css">
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  </head>
+    
+  <body style="background: white;">
+    
+    <table style="width: 800px;">
+      <tr>
+        <td width="600">
+          <div id="gl"></div>
+        </td>
+        <td>
+          <div id="protein">
+            <h3>Input style</h3>
+            <input type="radio" name="protein-representation" id="protein-cartoon" checked>Cartoon</input><br/>
+            <input type="radio" name="protein-representation" id="protein-ballsandsticks">Balls & Sticks</input><br/>
+            <input type="radio" name="protein-representation" id="protein-lines">Lines</input><br/>
+            <input type="radio" name="protein-representation" id="protein-line-trace">Line Trace</input><br/>
+            <input type="radio" name="protein-representation" id="protein-sline">Smooth Line Trace</input><br/>
+            <input type="radio" name="protein-representation" id="protein-trace">Trace</input><br/>
+          </div>
+          
+          <div id=color>
+            <h3>Color by</h3>
+            <input type="radio" name="color-representation" id="color-uniform">Uniform</input><br/>
+            <input type="radio" name="color-representation" id="color-succession">Succession</input><br/>
+            <input type="radio" name="color-representation" id="color-occupancy">Occupancy</input><br/>
+            <input type="radio" name="color-representation" id="color-tempfactor">Temperature factor</input><br/>
+            <input type="range" id="color-gradient" step="0.01" min="0.01" max="0.99" />
+          </div>
+
+
+          <div id=slider>
+            <h3>Model</h3>
+            <select>
+
+              <option value="model1.pdb">
+                Model 1
+              </option>
+
+              <option value="model2.pdb">
+                Model 2
+              </option>
+
+              <option value="model3.pdb">
+                Model 3
+              </option>
+
+              <option value="model4.pdb">
+                Model 4
+              </option>
+
+              <option value="model5.pdb">
+                Model 5
+              </option>
+
+              <option value="model6.pdb">
+                Model 6
+              </option>
+
+              <option value="model7.pdb">
+                Model 7
+              </option>
+
+              <option value="model8.pdb">
+                Model 8
+              </option>
+
+              <option value="model9.pdb">
+                Model 9
+              </option>
+
+              <option value="model10.pdb">
+                Model 10
+              </option>
+
+            </select>
+          </div>
+
+
+         <h3>Information</h3>
+         <ul id=info>
+           <li>Selected <span style="color: navy; font-family: monospace; background-color: #ccc;" id="selection">(nothing)</span></li>
+           <li><a id="bookmark" href="#">Bookmark this page</a></li>
+         </ul>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" id="frag_seq_box" style="background: #ffedcc; padding: 1em 1em 0 1em; font-family: monospace; display: none;">
+        <p style="background: #f0b37e; margin: -1em; display: block; padding: 0.25em; margin-bottom: 0.5em; font-weight: bold; color: white;" id="frag_info"></p>
+        <textarea rows="1" style="margin: 0; height: 1.2em; margin-bottom: 0.5em;" id="frag_sequence">
+        </textarea>
+        </td>
+      </tr>
+    <tr>
+      <td colspan="2" style="background: #e7f2fa; padding: 1em 1em 0 1em;">
+      <p style="background: #6ab0de; margin: -1em; display: block; padding: 0.25em; margin-bottom: 0.5em; font-weight: bold; color: white;">Note</p>
+      <p style="margin: 0;">
+      You can rotate the model by dragging with the left mouse button and zoom by scrolling.
+      You can display the residue number by left-clicking on the molecule.
+      <p>
+      </td>
+    </tr>
+    </table>
+  </body>
+  <script src='/portal/js/pv/pv.min.js'></script>
+  <script>
+
+    var pv = pv.Viewer(document.getElementById('gl'), {
+               width: 600,
+               height: 600,
+               antialias: true,
+               quality: 'high',
+               outline: false
+             });
+
+    var structs = {};
+    var structure; // this variable must exist
+
+    function getcolor(name) {
+      var ccolor = null;
+      var color_name = $('#color input:checked').attr('id');
+      if (name == "fragment") {
+          ccolor = color.uniform('red');
+      } else {
+        if (color_name == "color-uniform") {
+          ccolor = color.uniform('grey');
+        }
+        if (color_name == "color-occupancy") {
+          ccolor = color.byAtomProp('occupancy');
+        }
+        if (color_name == "color-tempfactor") {
+          var color_map = ['red','white','blue']
+          var threshold = parseFloat(1.0 - $('#color-gradient').val());
+          var steps = [0.0, threshold, 1.0];
+          ccolor = color.byAtomProp('tempFactor', color.gradient(color_map, steps));
+        }
+      }
+      return ccolor;
+    }
+
+    function lines(name, struct) {
+      pv.rm(name)
+      pv.lines(name, struct, {color:getcolor(name)});
+    }
+
+    function cartoon(name, struct) {
+      pv.rm(name)
+
+      var ccolor = getcolor(name);
+      if (ccolor == null) {
+        ccolor = color.ssSuccession();
+      }
+
+      pv.cartoon(name, struct, {color:ccolor});
+    }
+
+    function lineTrace(name, struct) {
+      pv.rm(name)
+      pv.lineTrace(name, struct, {color:getcolor(name)});
+    }
+
+    function sline(name, struct) {
+      pv.rm(name)
+      pv.sline(name, struct, {color:getcolor(name)});
+    }
+
+    function ballsAndSticks(name, struct) {
+      pv.rm(name)
+      pv.ballsAndSticks(name, struct, {color:getcolor(name)});
+    }
+
+    function trace(name, struct) {
+      pv.rm(name)
+      pv.trace(name, struct, {color:getcolor(name)});
+    }
+    
+    function loadModel(file, name) {
+      $.ajax({ url : file, success : function(data) {
+        structs[name] = io.pdb(data);
+        structure = structs[name];
+        pv.fitTo(structs[name]);
+        $('#protein input:checked').click(); 
+      }});
+    }
+
+    function modelSequence(name) {
+        var seq = "";
+        structs[name].eachResidue(function (res) {
+          seq += res.name();
+        });
+        seq = seq.replace(/(.)(.)(.)/g, function (str, p1, p2, p3, off, s) {
+          return p1.toUpperCase() + p2.toLowerCase() + p3.toLowerCase();
+        });
+        seq = seq.replace(/Ala/g, " A ");
+        seq = seq.replace(/Asx/g, " B ");
+        seq = seq.replace(/Cys/g, " C ");
+        seq = seq.replace(/Asp/g, " D ");
+        seq = seq.replace(/Glu/g, " E ");
+        seq = seq.replace(/Phe/g, " F ");
+        seq = seq.replace(/Gly/g, " G ");
+        seq = seq.replace(/His/g, " H ");
+        seq = seq.replace(/Ile/g, " I ");
+        seq = seq.replace(/Lys/g, " K ");
+        seq = seq.replace(/Leu/g, " L ");
+        seq = seq.replace(/Met/g, " M ");
+        seq = seq.replace(/Asn/g, " N ");
+        seq = seq.replace(/Pro/g, " P ");
+        seq = seq.replace(/Gln/g, " Q ");
+        seq = seq.replace(/Arg/g, " R ");
+        seq = seq.replace(/Ser/g, " S ");
+        seq = seq.replace(/Thr/g, " T ");
+        seq = seq.replace(/Val/g, " V ");
+        seq = seq.replace(/Trp/g, " W ");
+        seq = seq.replace(/Xaa/g, " X ");
+        seq = seq.replace(/Tyr/g, " Y ");
+        seq = seq.replace(/Glx/g, " Z ");
+        seq = seq.replace(/\*\*\*/g, " * ");
+        seq = seq.replace(/\s/g, "");
+        return seq;
+    }
+    
+    $('#protein-cartoon').click(function() {
+      cartoon("protein", structs['protein']);
+    });
+    
+    $('#protein-ballsandsticks').click(function() {
+      ballsAndSticks("protein", structs['protein']);
+    });
+    
+    $('#protein-line-trace').click(function() {
+      lineTrace("protein", structs["protein"]);
+    });
+    
+    $('#protein-lines').click(function() {
+      lines("protein", structs["protein"]);
+    });
+    
+    $('#protein-trace').click(function() {
+      trace("protein", structs["protein"]);
+    });
+    
+    $('#protein-sline').click(function() {
+      sline("protein", structs["protein"]);
+    });
+    
+    $('#protein-tube').click(function() {
+      tube("protein", structs["protein"]);
+    });
+  
+    $('#color-succession').click(function() {
+      $('#protein input:checked').click();
+    });
+
+    $('#color-tempfactor').click(function() {
+      $('#protein input:checked').click();
+    });
+    
+    $('#color-occupancy').click(function() {
+      $('#protein input:checked').click();
+    });
+
+    $('#color-uniform').click(function() {
+      $('#protein input:checked').click();
+    });
+
+    $('#color-gradient').on("change mousemove", function() {
+      $('#protein input:checked').click(); 
+      var estimate = $(this).val();
+    });
+
+    pv.addListener("atomClicked", function(picked, originalEvent) {
+      if (picked) {
+        var newAtom = picked.object().atom;
+        var geom = picked.object().geom;
+        $('#selection').text('Res=' + newAtom.residue().num())
+        console.log(" Residue number=" + newAtom.residue().num());
+      }
+    });
+
+    $(document).ready(function() {
+        var q = queryString.parse(location.search);
+        if (q.model == null) {
+          q.model = $("#slider option:first").attr('value');
+        }
+
+        $("#slider select").change(function () {
+          var model_file = $(this).find(":selected").attr('value');
+          loadModel(model_file, "protein");
+          q.model = model_file;
+          $('#bookmark').attr('href', location.origin + location.pathname + '?' + queryString.stringify(q));
+        });
+        $("#slider select").val(q.model).change();
+        $('#color-succession').prop("checked", true);
+    });
+  </script>
+</html>
