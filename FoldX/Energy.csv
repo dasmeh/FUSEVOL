@@ -1,0 +1,3 @@
+"","X","Species","total.energy","Backbone.Hbond","Sidechain.Hbond","Van.der.Waals","Electrostatics","Solvation.Polar","Solvation.Hydrophobic","Van.der.Waals.clashes","entropy.sidechain","entropy.mainchain","sloop_entropy","mloop_entropy","cis_bond","torsional.clash","backbone.clash","helix.dipole","water.bridge","disulfide","electrostatic.kon","partial.covalent.bonds","energy.Ionisation","Entropy.Complex"
+"1",1,"Human",14.4054,-2.81491,16.4416,9.72717,0.0678677,-26.3472,1.96351,8.68547,-6.42758,18.1814,0,0,0,-5.07188,-3.77453,0,0,0,3.55271e-15,0,0,0
+"63",63,"Formosan_leaf-nosed_bat",101.446,1.80061,2.07489,-9.42471,0.115989,8.01989,-14.9993,79.6283,1.14387,21.0526,0,0,0,12.0335,3.55043,0,0,0,-8.88178e-16,0,0,0
