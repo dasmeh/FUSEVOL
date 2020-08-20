@@ -1,0 +1,159 @@
+DATASET_EXTERNALSHAPE
+#Nodes have multiple values associated with them. Values will be displayed as geometric shapes of different size.
+#Highest value in the dataset will have the largest size, and all others will be scaled down proportionally.
+#lines starting with a hash are comments and ignored during parsing
+
+#=================================================================#
+#                    MANDATORY SETTINGS                           #
+#=================================================================#
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throughout this file (except in the SEPARATOR line, which uses space).
+#SEPARATOR TAB
+#SEPARATOR SPACE
+SEPARATOR COMMA
+
+#label is used in the legend table (can be changed later)
+DATASET_LABEL,example shapes dataset
+
+#dataset color (can be changed later)
+COLOR,#ff0000
+
+#define colors for each individual field column (use hexadecimal, RGB or RGBA notation; if using RGB/RGBA, COMMA cannot be used as SEPARATOR)
+#FIELD_COLORS,#ff0000,#00ff00,#0000ff
+
+#field labels
+#FIELD_LABELS,f1,f2,f3
+
+#=================================================================#
+#                    OPTIONAL SETTINGS                            #
+#=================================================================#
+
+#=================================================================#
+#     all other optional settings can be set or changed later     #
+#           in the web interface (under 'Datasets' tab)           #
+#=================================================================#
+
+#left margin, used to increase/decrease the spacing to the next dataset. Can be negative, causing datasets to overlap.
+#MARGIN,0
+
+SHAPE_TYPE,2
+
+#always show internal values; if set, values associated to internal nodes will be displayed even if these nodes are not collapsed. It could cause overlapping in the dataset display.
+#SHOW_INTERNAL,0
+
+#shape height factor; Default shape height will be slightly less than the available space between leaves, but you can set a multiplication factor here to increase/decrease it (values from 0 to 1 will decrease it, values above 1 will increase it)
+#HEIGHT_FACTOR,1
+
+#vertical and horizontal grids can be displayed connecting the shapes
+HORIZONTAL_GRID,1
+VERTICAL_GRID,1
+
+#horizontal spacing between shape columns
+SHAPE_SPACING,10
+
+#if set to 0, only outlines will be shown
+COLOR_FILL,1
+
+#if COLOR_FILL is used, this setting can be used to control the color transparency
+TRANSPARENT_FILL,1
+
+#if set to 1, actual numeric value will be show in the center of each shape
+SHOW_VALUES,0
+
+#=================================================================#
+#       Actual data follows after the "DATA" keyword              #
+#=================================================================#
+FIELD_LABELS,rl0,rl1,rl2,rl3,rl4,rl5,rl6,rl7,rl8,rl9,rl10,rl11,rl12,rl13,rl14,rl15,rl16,rl17,rl18,rl19,rl20,rl21,rl22,rl23,rl24,rl25,rl26,rl27,rl28,rl29,rl30,rl31,rl32,rl33,rl34,rl35,rl36,rl37,rl38,rl39,rl40,rl41,rl42,rl43,rl44,rl45,rl46,rl47,rl48,rl49
+FIELD_COLORS,#9e44d8,#83b387,#b37883,#a1f4d5,#4ae92f,#8548a5,#8b59e5,#706b14,#2c5e3f,#a2bdda,#b7e975,#ecafb9,#ceee4e,#d8fa94,#90507e,#7e086d,#c68f65,#8c8943,#14fc7a,#20ac07,#d09bc1,#c3133d,#c5a959,#7ea35c,#e69c99,#c5fd9d,#b6f88f,#3b1fab,#abb41e,#0c4e9e,#86ddae,#f76721,#472b37,#d03983,#37b63d,#8e3fce,#173835,#cae3cc,#e1e503,#b77df3,#f7e151,#2c2f33,#e6c16d,#0fa61a,#e8fd50,#1995e8,#dc7e6d,#1fa3e3,#9d199a,#b837e7
+DATA
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+#ID1,value1,value2,value3
+#ID2,value4,value5,value6
+#9606,10,10,20,40
+#LEAF1|LEAF2,50,60,80,90
+Homo_sapiens,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Gallus_gallus,0,1,1,1,0,1,1,1,1,1,1,0,1,1,1,1,0,1,1,1,1,1,1,0,1,0,1,1,0,1,1,1,1
+Erinaceus_europaeus,0,1,1,1,1,1,0,1,0,1,1,1,0,0,1,0,0,0,1,1,1,0,1,1,1,1,1,1,0,0,0,1,1
+Condylura_cristata,0,1,1,1,1,1,0,1,0,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,1,0,1,1,0,0,0,1,1
+Panthera_tigris,0,1,1,1,1,1,0,1,0,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,1,0,1,1,0,0,0,0,1
+Panthera_pardus,0,1,1,1,1,1,0,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,0,0,0,1
+Felis_catus,0,1,1,1,1,1,0,1,0,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,1,0,1,1,0,0,0,0,1
+Puma_concolor,0,1,1,1,1,1,0,1,0,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,1,0,1,1,0,0,0,0,1
+Acinonyx_jubatus,0,1,1,1,1,1,1,1,0,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,1,0,1,1,0,0,0,0,1
+Canis_lupus,0,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1
+Vulpes_vulpes,0,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1
+Enhydra_lutris,0,1,1,1,1,1,1,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1
+Zalophus_californianus,0,1,1,1,1,1,1,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,0,1
+Eumetopias_jubatus,0,1,1,1,1,1,1,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,0,1
+Odobenus_rosmarus,0,1,1,1,1,1,1,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,0,1
+Leptonychotes_weddellii,0,1,1,1,1,1,0,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,0,1
+Monachus_monachus,0,1,1,1,1,1,0,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,0,1
+Ursus_maritimus,0,1,1,1,1,1,1,1,0,0,1,1,1,0,1,1,1,0,1,1,1,1,1,1,1,0,1,1,0,0,0,1,1
+Manis_javanica,0,1,1,1,1,1,1,1,0,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1
+Equus_caballus,0,1,1,1,1,1,0,1,0,1,1,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1
+Equus_przewalskii,0,1,1,1,1,1,0,1,0,1,1,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1
+Equus_asinus,0,1,1,1,1,1,0,1,0,1,1,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1
+Ceratotherium_simum,0,1,1,1,1,1,1,1,0,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1
+Vicugna_pacos,0,1,1,1,1,1,0,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,0,0,0,1
+Camelus_ferus,0,1,1,1,1,1,0,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,1,0,1,1
+Camelus_bactrianus,0,1,1,1,1,1,0,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1
+Balaenoptera_acutorostrata,0,1,1,1,1,1,0,1,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1
+Physeter_catodon,0,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1
+Lipotes_vexillifer,0,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1
+Delphinapterus_leucas,0,1,1,1,1,1,0,1,0,0,1,0,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,0,0,0,1,1
+Lagenorhynchus_obliquidens,0,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,0,0,0,1,1
+Orcinus_orca,0,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,0,0,0,1,1
+Bubalus_bubalis,0,1,1,1,1,1,1,1,0,1,1,1,1,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1
+Bos_taurus,0,1,1,1,1,1,0,1,0,1,1,1,1,0,1,0,1,1,1,1,1,0,1,1,1,1,1,0,0,0,0,1,1
+Bison_bison,0,1,1,1,1,1,0,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1
+Capra_hircus,0,1,1,1,1,1,1,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1
+Ovis_aries,0,1,1,1,1,1,1,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1
+Pantholops_hodgsonii,0,1,1,1,1,1,1,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1
+Sus_scrofa,0,1,1,1,1,1,0,1,0,1,1,1,0,0,1,1,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1
+Hipposideros_armiger,0,1,1,1,1,1,0,1,1,1,1,1,1,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1
+Pteropus_vampyrus,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,0,1,1,1,1,1,1,1,1,1,0,0,1,0,0,1,1
+Pteropus_alecto,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,0,1,1,1,1,1,1,1,1,1,0,0,1,0,0,1,1
+Rousettus_aegyptiacus,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,1
+Desmodus_rotundus,0,1,1,1,1,1,1,0,0,1,1,1,1,0,1,0,0,1,1,0,1,1,1,1,1,1,1,1,0,0,0,1,1
+Myotis_lucifugus,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1,0,1,1,1,1,1,1,1,1,0,0,0,1,1
+Miniopterus_natalensis,0,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,0,1,1,0,1,1,1,1,0,0,1,1,0,0,0,1,1
+Oryctolagus_cuniculus,0,1,1,1,1,1,0,1,0,1,1,1,0,0,1,1,1,1,1,1,1,0,1,1,1,0,1,1,0,0,0,1,1
+Ochotona_princeps,0,1,1,1,1,1,1,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1
+Heterocephalus_glaber,0,1,1,1,1,1,0,1,0,1,1,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1
+Cavia_porcellus,0,1,1,1,1,1,0,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,0,0,1,1
+Octodon_degus,0,1,1,1,1,1,0,1,0,1,1,1,1,0,1,1,1,0,1,1,1,1,1,1,1,0,1,1,0,0,0,1,1
+Rattus_norvegicus,0,1,1,1,1,1,0,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,0,0,1,1
+Mus_musculus,0,1,1,1,1,1,1,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,0,0,1,1
+Meriones_unguiculatus,0,1,1,1,1,1,0,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,0,0,1,1
+Mesocricetus_auratus,0,1,1,1,1,1,0,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,0,0,1,1
+Cricetulus_griseus,0,1,1,1,1,1,0,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,0,0,1,1
+Peromyscus_maniculatus,0,1,1,1,1,1,0,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,0,0,1,1
+Nannospalax_galili,0,1,1,1,1,1,0,1,0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,1,1,0,0,1,1,1
+Dipodomys_ordii,0,1,1,1,0,1,1,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,0,0,1,1
+Urocitellus_parryii,0,1,1,1,1,1,0,1,0,1,1,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1
+Marmota_flaviventris,0,1,1,1,1,1,0,1,0,1,1,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1
+Marmota_marmota,0,1,1,1,1,1,0,1,0,1,1,1,1,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1
+Otolemur_garnettii,0,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,0,1,1,1
+Propithecus_coquereli,0,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1
+Microcebus_murinus,0,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1
+Aotus_nancymaae,0,1,1,1,1,1,1,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1
+Cebus_capucinus,0,1,1,1,1,1,1,1,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1
+Mandrillus_leucophaeus,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1
+Cercocebus_atys,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1
+Papio_anubis,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1
+Theropithecus_gelada,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1
+Macaca_mulatta,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1
+Macaca_fascicularis,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1
+Macaca_nemestrina,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1
+Chlorocebus_sabaeus,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1
+Rhinopithecus_roxellana,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1
+Rhinopithecus_bieti,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1
+Piliocolobus_tephrosceles,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1
+Colobus_angolensis,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1
+Gorilla_gorilla,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Pan_troglodytes,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Pan_paniscus,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Pongo_abelii,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1
+Dasypus_novemcinctus,0,1,1,1,1,1,1,1,0,1,1,1,1,0,1,1,0,1,1,1,1,1,1,1,1,0,1,0,0,0,0,1,1
+Trichechus_manatus,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1
+Chrysochloris_asiatica,0,1,1,1,1,1,1,1,0,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1
+Elephantulus_edwardii,0,1,1,1,1,1,0,1,0,1,1,1,1,0,1,0,1,1,1,1,1,1,0,1,1,1,1,1,0,0,0,1,1
